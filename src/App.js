@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HeaderPage from './Component/Header'
 
 function App() {
   return (
     <div className="App">
+      <HeaderPage/>
       <h1>Hello malic</h1>
     </div>
   );
